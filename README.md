@@ -44,7 +44,7 @@ A modern React web application showcasing the Brainwave AI chat app, built with 
 ## Clone the repository
 
 ```sh
-git clone https://github.com/your-username/brainwave_website.git
+git clone https://github.com/JanssensMaxime/brainwave_website.git
 cd brainwave_website
 ```
 
