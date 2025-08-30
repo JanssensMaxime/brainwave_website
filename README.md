@@ -1,12 +1,69 @@
-# React + Vite
+# Brainwave Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React web application showcasing the Brainwave AI chat app, built with Vite, Tailwind CSS, and a custom design system.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡️ Fast development with [Vite](https://vitejs.dev/)
+- 🎨 Custom design system using [Tailwind CSS](https://tailwindcss.com/)
+- 📱 Responsive layout for all devices
+- 🖼️ SVG and PNG assets for rich visuals
+- 🧩 Modular React components
+- 🌈 Parallax and animated effects
+- 🛠️ ESLint integration for code quality
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── assets/           # Images and SVGs
+│   ├── components/       # React components
+│   ├── constants/        # Static data and config
+│   ├── index.css         # Global styles
+│   ├── App.jsx           # Main App component
+│   ├── main.jsx          # Entry point
+│   └── ...
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+├── vite.config.js
+├── eslint.config.js
+└── README.md
+```
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18+ recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+## Clone the repository
+
+```sh
+git clone https://github.com/your-username/brainwave_website.git
+cd brainwave_website
+```
+
+### Installation
+
+```sh
+npm install
+```
+
+### Development
+
+Start the development server with hot reload:
+
+```sh
+npm run dev
+```
+
+## Customization
+
+- **Tailwind CSS**: Edit `tailwind.config.js` to customize colors, fonts, and design tokens.
+- **Assets**: Add or replace images and SVGs in `src/assets/`.
+- **Components**: Extend or modify React components in `src/components/`.
